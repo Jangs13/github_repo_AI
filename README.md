@@ -78,22 +78,21 @@ This project is designed to load data from a GitHub repository, upload it to a D
    git clone https://github.com/Jangs13/Github-Repo-AI.git
    cd Github-Repo-AI
    
-Install the required packages:
+2. Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Create a .env file in the root directory of the project and add the following environment variables:
-
-.env
+3. Create a .env file in the root directory of the project and add the following environment variables:
 
 - OPENAI_API_KEY=your_openai_api_key
 - GITHUB_TOKEN=your_github_token
 - ACTIVELOOP_TOKEN=your_activeloop_token
 - DATASET_PATH=your_deeplake_dataset_path
 
-Usage
+## Usage
+
 Run the main script:
 
 ```bash
@@ -133,7 +132,7 @@ Dataset(path='hub://YOUR_ORG/repository_db', tensors=['embedding', 'id', 'metada
    
 Test question: What is the repository about?
 
-'''=================================================='''
+==================================================
 
 Answer: The repository is a ChatGPT Plugin Quickstart with Express.js. It provides a foundation for
 developing custom ChatGPT plugins using JavaScript and Express.js. The sample plugin in the
@@ -144,7 +143,7 @@ Please enter your question (or type 'exit' to quit): how does the server work?
 
 Your question: how does the server work?
 
-'''=================================================='''
+==================================================
 
 Answer: The server in this context works by setting up an Express.js server with various endpoints to serve
 a ChatGPT plugin. It initializes the server, configures it to parse JSON in the body of incoming
