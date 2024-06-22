@@ -131,7 +131,7 @@ Dataset(path='hub://YOUR_ORG/repository_db', tensors=['embedding', 'id', 'metada
    text       text      (5, 1)      str     None
    
 Test question: What is the repository about?
-==================================================
+'''=================================================='''
 Answer: The repository is a ChatGPT Plugin Quickstart with Express.js. It provides a foundation for
 developing custom ChatGPT plugins using JavaScript and Express.js. The sample plugin in the
 repository showcases how ChatGPT can integrate with external APIs, specifically API-Ninja's API, to
@@ -140,7 +140,7 @@ enhance its capabilities. The plugin fetches airport data based on a city name p
 Please enter your question (or type 'exit' to quit): how does the server work?
 
 Your question: how does the server work?
-==================================================
+'''=================================================='''
 Answer: The server in this context works by setting up an Express.js server with various endpoints to serve
 a ChatGPT plugin. It initializes the server, configures it to parse JSON in the body of incoming
 requests, and sets up routes for serving the plugin manifest, OpenAPI schema, logo image, and
