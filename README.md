@@ -115,7 +115,7 @@ Documents uploaded:
 {'file_path': 'pipeline.py', 'file_name': 'pipeline.py', 'url': 'https://github.com/Jangs13\\Ray_Peat_Scrape_Search\\blob/master\\pipeline.py'}
 Uploading to vector store...
 Test question: What is the repository about?
-==================================================
+
 Answer: This repository contains scripts for scraping and analyzing data related to Ray Peat.
 
 ## Notes
@@ -127,5 +127,6 @@ Answer: This repository contains scripts for scraping and analyzing data related
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Jangs13/github_repo_AI?tab=MIT-1-ov-file)
+ file for details.
 
