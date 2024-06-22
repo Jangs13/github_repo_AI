@@ -82,10 +82,11 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
+```
 
-Create a .env file in the root directory of the project and add the following environment variables:
+## Create a .env file in the root directory of the project and add the following environment variables:
 
-env
+.env
 
 OPENAI_API_KEY=your_openai_api_key
 GITHUB_TOKEN=your_github_token
@@ -97,6 +98,7 @@ Run the main script:
 
 ```bash
 python main.py
+```
 
 Enter the GitHub repository URL when prompted.
 
