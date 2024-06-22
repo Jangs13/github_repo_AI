@@ -88,10 +88,10 @@ pip install -r requirements.txt
 
 .env
 
-OPENAI_API_KEY=your_openai_api_key
-GITHUB_TOKEN=your_github_token
-ACTIVELOOP_TOKEN=your_activeloop_token
-DATASET_PATH=your_deeplake_dataset_path
+- OPENAI_API_KEY=your_openai_api_key
+- GITHUB_TOKEN=your_github_token
+- ACTIVELOOP_TOKEN=your_activeloop_token
+- DATASET_PATH=your_deeplake_dataset_path
 
 Usage
 Run the main script:
