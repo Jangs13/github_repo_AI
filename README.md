@@ -123,12 +123,13 @@ Your Deep Lake dataset has been successfully created!
 
 Dataset(path='hub://YOUR_ORG/repository_db', tensors=['embedding', 'id', 'metadata', 'text'])
 
-  tensor      htype      shape     dtype  compression
-  -------    -------    -------   -------  -------
- embedding  embedding  (5, 1536)  float32   None
-    id        text      (5, 1)      str     None
- metadata     json      (5, 1)      str     None
-   text       text      (5, 1)      str     None
+| tensor     | htype      | shape     | dtype   | compression |
+|------------|------------|-----------|---------|-------------|
+| embedding  | embedding  | (5, 1536) | float32 | None        |
+| id         | text       | (5, 1)    | str     | None        |
+| metadata   | json       | (5, 1)    | str     | None        |
+| text       | text       | (5, 1)    | str     | None        |
+
    
 Test question: What is the repository about?
 
