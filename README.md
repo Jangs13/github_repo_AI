@@ -108,15 +108,48 @@ You can ask questions about the repository data.
 
 ## Example
 
-Please enter the GitHub repository URL: https://github.com/Jangs13/Ray_Peat_Scrape_Search
-Loading Ray_Peat_Scrape_Search repository by Jangs13
-Documents uploaded:
-{'file_path': 'app.py', 'file_name': 'app.py', 'url': 'https://github.com/Jangs13\\Ray_Peat_Scrape_Search\\blob/master\\app.py'}
-{'file_path': 'pipeline.py', 'file_name': 'pipeline.py', 'url': 'https://github.com/Jangs13\\Ray_Peat_Scrape_Search\\blob/master\\pipeline.py'}
-Uploading to vector store...
-Test question: What is the repository about?
+Please enter the GitHub repository URL: https://github.com/soos3d/chatgpt-plugin-development-quickstart-express 
 
-Answer: This repository contains scripts for scraping and analyzing data related to Ray Peat.
+Loading chatgpt-plugin-development-quickstart-express repository by soos3d 
+
+Documents uploaded:
+{'file_path': 'README.md', 'file_name': 'README.md'}
+{'file_path': 'index.js', 'file_name': 'index.js'}
+{'file_path': 'src/app.js', 'file_name': 'app.js'}
+
+Uploading to vector store...
+
+Your Deep Lake dataset has been successfully created!
+
+Dataset(path='hub://YOUR_ORG/repository_db', tensors=['embedding', 'id', 'metadata', 'text'])
+
+  tensor      htype      shape     dtype  compression
+  -------    -------    -------   -------  -------
+ embedding  embedding  (5, 1536)  float32   None
+    id        text      (5, 1)      str     None
+ metadata     json      (5, 1)      str     None
+   text       text      (5, 1)      str     None
+   
+Test question: What is the repository about?
+==================================================
+Answer: The repository is a ChatGPT Plugin Quickstart with Express.js. It provides a foundation for
+developing custom ChatGPT plugins using JavaScript and Express.js. The sample plugin in the
+repository showcases how ChatGPT can integrate with external APIs, specifically API-Ninja's API, to
+enhance its capabilities. The plugin fetches airport data based on a city name provided by the user.
+
+Please enter your question (or type 'exit' to quit): how does the server work?
+
+Your question: how does the server work?
+==================================================
+Answer: The server in this context works by setting up an Express.js server with various endpoints to serve
+a ChatGPT plugin. It initializes the server, configures it to parse JSON in the body of incoming
+requests, and sets up routes for serving the plugin manifest, OpenAPI schema, logo image, and
+handling API requests. It also defines a catch-all route to handle any other requests. Finally, the
+server starts and listens for requests on the specified port.
+
+Please enter your question (or type 'exit' to quit): exit
+
+Exiting, thanks for chatting!
 
 ## Notes
 
